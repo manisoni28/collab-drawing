@@ -6,6 +6,7 @@ var config = {
 };
 firebase.initializeApp(config);
 
+
 var pointsData = firebase.database().ref();
 var points = [];
 
